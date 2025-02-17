@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+.card {
+    border-radius: 10px; /* Bordes redondeados para la tarjeta */
+    background-color: #ffffff; /* Fondo blanco para la tarjeta */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  ul.list-group {
+    margin-top: 20px;
+    max-height: 300px; /* Altura máxima para la lista */
+    overflow-y: auto; /* Habilitar el scroll vertical */
+  }
+  
+  ul.list-group li {
+    font-size: 1.1rem;
+  }
+  
