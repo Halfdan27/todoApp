@@ -37,16 +37,16 @@ ng serve -o
 ## Decisiones Tomadas
 
 - **Estructura del Proyecto**: Utilicé **Angular** para el frontend porque es una herramienta potente y fácil de trabajar,
-- además de que permite integrar distintas funcionalidades sin complicaciones.
+ además de que permite integrar distintas funcionalidades sin complicaciones.
   
 - **Diseño Responsivo**: Opté por un diseño simple y adaptativo usando **CSS Flexbox**,
--  asegurando que la aplicación se vea bien tanto en dispositivos móviles como en pantallas grandes.
+   asegurando que la aplicación se vea bien tanto en dispositivos móviles como en pantallas grandes.
 
 - **Interacción de Usuario**: Los botones de acción para eliminar y marcar tareas como completadas son fáciles de usar,
--  y tienen colores distintos para que se entienda cuál es cuál de forma rápida.
+   y tienen colores distintos para que se entienda cuál es cuál de forma rápida.
 
 - **Manejo del Scroll**: Implementé un scroll vertical en la lista de tareas para evitar que el contenido se sobreponga.
--  Así, las tareas se organizan de manera más fluida, sin que se vea todo apretado.
+   Así, las tareas se organizan de manera más fluida, sin que se vea todo apretado.
 
 - **Estilos y Diseño**: Elegí colores suaves para el fondo y contrastes nítidos para los botones y las tareas, haciendo la interfaz más limpia y fácil de leer.
 
