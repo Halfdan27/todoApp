@@ -1,7 +1,12 @@
+body {
+        background-color: #aec5e2;
+        display: flexbox;
+    }
+
 .card {
-    border-radius: 10px; /* Bordes redondeados para la tarjeta */
-    background-color: #ffffff; /* Fondo blanco para la tarjeta */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; 
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
   }
   
   .card-title {
@@ -15,8 +20,8 @@
   
   ul.list-group {
     margin-top: 20px;
-    max-height: 300px; /* Altura máxima para la lista */
-    overflow-y: auto; /* Habilitar el scroll vertical */
+    max-height: 300px; 
+    overflow-y: auto; 
   }
   
   ul.list-group li {
