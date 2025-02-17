@@ -1,0 +1,13 @@
+<div class="container mt-3">
+    <form (ngSubmit)="addTask()" [formGroup]="taskForm">
+      <div class="mb-3">
+        <label for="taskTitle" class="form-label">Nueva tarea</label>
+        <input id="taskTitle" formControlName="title" class="form-control" placeholder="Escribe una tarea" />
+        <div *ngIf="taskForm.controls['title'].invalid && taskForm.controls['title'].touched" class="text-danger">
+          La tarea no puede estar vacía.
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="taskForm.invalid">Agregar</button>
+    </form>
+  </div>
+  
