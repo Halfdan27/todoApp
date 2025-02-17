@@ -1,8 +1,9 @@
-# App de Gestión de Tareas en Angular
+# todoApp
 
 ## Descripción
 
-Esta es una aplicación simple para gestionar tareas. Permite agregar, eliminar, y marcar tareas como completadas. 
+Esta es una aplicación simple para gestionar tareas. 
+Permite agregar, eliminar, y marcar tareas como completadas. 
 Además, muestra un contador de tareas pendientes y mensajes dinámicos si no hay tareas en la lista.
 Las tareas se mantienen guardadas en el `localStorage`, lo que permite que persistan incluso después de recargar la página.
 
@@ -19,34 +20,33 @@ Las tareas se mantienen guardadas en el `localStorage`, lo que permite que persi
 
 ### 1. Clonar el repositorio
 
-Para empezar, clona el proyecto en tu máquina local (abrir una terminal) o descargar como .zip:
+Para empezar, clona el proyecto en tu máquina local ya sea por git clone o descargarlo como .zip:
 
-```bash 
+```bash
 git clone https://github.com/Halfdan27/todoApp.git
 ```
-### 2. Instalar dependencias
-
-utiliza el siguiente comando para instalar las depencias :
-
+Instalar las dependencias 
 ```bash
 npm install
 ```
-ejecuta el siguiente ocmando para que inicia el localhost
-```bash 
-ng serve -o 
+ejecutar ng serve para abrir el local host 
+```bash
+ng serve -o
 ```
-
 
 ## Decisiones Tomadas
 
-- **Estructura del Proyecto**: Utilicé **Angular** para el frontend porque es una herramienta potente y fácil de trabajar, 
-además de que permite integrar distintas funcionalidades sin complicaciones.
+- **Estructura del Proyecto**: Utilicé **Angular** para el frontend porque es una herramienta potente y fácil de trabajar,
+ además de que permite integrar distintas funcionalidades sin complicaciones.
   
-- **Diseño Responsivo**: Opté por un diseño simple y adaptativo usando **CSS Flexbox**, asegurando que la aplicación se vea bien tanto en dispositivos móviles como en pantallas grandes.
+- **Diseño Responsivo**: Opté por un diseño simple y adaptativo usando **CSS Flexbox**,
+   asegurando que la aplicación se vea bien tanto en dispositivos móviles como en pantallas grandes.
 
-- **Interacción de Usuario**: Los botones de acción para eliminar y marcar tareas como completadas son fáciles de usar, y tienen colores distintos para que se entienda cuál es cuál de forma rápida.
+- **Interacción de Usuario**: Los botones de acción para eliminar y marcar tareas como completadas son fáciles de usar,
+   y tienen colores distintos para que se entienda cuál es cuál de forma rápida.
 
-- **Manejo del Scroll**: Implementé un scroll vertical en la lista de tareas para evitar que el contenido se sobreponga. Así, las tareas se organizan de manera más fluida, sin que se vea todo apretado.
+- **Manejo del Scroll**: Implementé un scroll vertical en la lista de tareas para evitar que el contenido se sobreponga.
+   Así, las tareas se organizan de manera más fluida, sin que se vea todo apretado.
 
 - **Estilos y Diseño**: Elegí colores suaves para el fondo y contrastes nítidos para los botones y las tareas, haciendo la interfaz más limpia y fácil de leer.
 
